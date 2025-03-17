@@ -471,3 +471,60 @@ body {
 .page14-inner:hover .center14{
     height: 100%;
 }
+
+/* ///////////////////////////////// */
+
+footer{
+    padding: 40px;
+    text-align: left;
+    color: white;
+    background-color: #000;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* max-width: 1200px; */
+    margin: 0 3rem;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-links ul li {
+    font-size: 3rem;
+    /* margin-bottom: 10px; */
+}
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.subscribe {
+    text-align: right;
+}
+.subscribe input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+}
+.subscribe h3{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.subscribe span {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
